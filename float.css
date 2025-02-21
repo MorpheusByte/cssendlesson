@@ -1,0 +1,22 @@
+img{
+    width: 50%;
+}
+
+.box{
+    height: 50px;
+}
+
+.kutu1{
+    background-color: blueviolet;
+    width: 20%;
+}
+
+.kutu2{
+    background-color: cadetblue;
+    width: 30%;
+}
+
+.kutu3{
+    background-color: red;
+    width: 40%;
+}

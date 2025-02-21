@@ -1,0 +1,41 @@
+.box{
+    border: 5px solid green;
+    margin-bottom: 4rem;
+    width: 20rem;
+    height: 4rem;
+}
+
+.box1{
+    /* defoultta taşanları göster demek boş kod */
+    overflow: visible;
+}
+.box2{
+    /* taşanları gizle */
+    overflow: hidden;
+}
+
+.box2:hover{
+    overflow: visible;
+}
+
+.box3{
+    /* y ekseninde scroll çıkart sadece */
+    background-color: yellow;
+    overflow-y: scroll;
+}
+
+.box4{
+    /* otomatik olarak ihtiyaç olan tarafa scroll çıkartır */
+    overflow: auto;
+}
+.box5{
+    height: 14rem;
+    overflow: auto;
+}
+
+.box5::-webkit-scrollbar{
+    display: none;
+    /* visibility: hidden; */
+    /* width: 0;
+    height: 0; */
+}
